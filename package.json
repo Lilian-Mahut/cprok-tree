@@ -4,7 +4,8 @@
   "description": "React - Axios - Local storage - Auth",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Lilian-Mahut/cprok-tree/issues"
   },
-  "homepage": "https://github.com/Lilian-Mahut/cprok-tree#readme"
+  "homepage": "https://github.com/Lilian-Mahut/cprok-tree#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
